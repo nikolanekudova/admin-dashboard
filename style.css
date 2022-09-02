@@ -11,7 +11,7 @@ body {
 }
 
 .sidebar {
-    background-color: rgb(107, 144, 128);
+    background-color: rgb(52, 73, 102);
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     color: white;
@@ -21,14 +21,18 @@ body {
 }
 
 .header {
-    background-color: rgb(164, 195, 178);
+    background-color: white;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 0px rgba(69,68,69,1);
+    margin-bottom: 3px;
+    
 }
 
 .main-content {
-    background-color: rgb(246, 255, 248);
+    background-color: rgb(226, 236, 249);
     grid-row: 2 / 3;
     grid-column: 2 / 3;
 }
@@ -55,7 +59,7 @@ li > a {
 }
 
 li > a:hover {
-    background-color: rgb(164, 195, 178);
+    background-color: rgb(227, 117, 203);
 }
 
 a > p {
@@ -83,8 +87,118 @@ a > p {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-top: 25px;
+}
+
+.header-top-left {
+    display: flex;
+    padding-left: 25px;
+    gap: 20px;
+    align-items: baseline;
+}
+
+#input-search {
+    height: 25px;
+    width: 300px;
+    border-radius: 25px;
+    background-color: rgb(226, 236, 249);
+    border: none;
+    padding-left: 10px;
+}
+
+#icon-search:hover {
+    color: rgb(227, 117, 203);
+    cursor: pointer;
 }
 
 .header-top-right {
     display: flex;
+    padding-right: 25px;
+    gap: 20px;
+    height: 50px;
+    align-items: center;
+}
+
+#icon-bell-wrapper {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+#icon-bell:hover {
+    color: rgb(227, 117, 203);
+    cursor: pointer;
+}
+
+#person-name {
+    margin: 0px;
+    font-weight: 500;
+}
+
+#person-icon {
+    height: 35px;
+}
+
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.header-bottom-left {
+    display: flex;
+    padding-left: 25px;
+    gap: 20px;
+    align-content: center;
+    height: auto;
+}
+
+.header-bottom-right {
+    display: flex;
+    padding-right: 25px;
+    height: fit-content;
+    gap: 20px;
+    align-items: center;
+    height: auto;
+}
+
+#person-icon-hi {
+    height: 60px;
+}
+
+#p-wrapper-header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+#p-hi, #p-hi-name {
+    margin: 0;
+}
+
+#p-hi {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+#p-hi-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-header {
+    background-color: rgb(52, 73, 102);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.btn-header:hover {
+    background-color: rgb(227, 117, 203);
+    cursor: pointer;
 }

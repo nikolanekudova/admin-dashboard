@@ -98,17 +98,31 @@
         <div class="header">
             <div class="header-top">
                 <div class="header-top-left">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text">
+                    <i class="fa-solid fa-magnifying-glass" id="icon-search"></i>
+                    <input type="text" id="input-search">
                 </div>
                 <div class="header-top-right">
-                    <i class="fa-solid fa-bell"></i>
-                    <img src="./bunny.png">
+                    <div id="icon-bell-wrapper">
+                        <i class="fa-regular fa-bell fa-lg" id="icon-bell"></i>
+                    </div>
+                    <img src="./bunny.png" id="person-icon">
                     <p id="person-name">Nikola Nekudova</p>
                 </div>
             </div>
             <div class="header-bottom">
+                <div class="header-bottom-left">
+                    <img src="./bunny.png" id="person-icon-hi">
+                    <div id="p-wrapper-header">
+                        <p id="p-hi">Hi there,</p>
+                        <p id="p-hi-name">Nikola Nekudova (@nekudek)</p>
+                    </div>
 
+                </div>
+                <div class="header-bottom-right">
+                    <button id="btn-new" class="btn-header">New</button>
+                    <button id="btn-upload" class="btn-header">Upload</button>
+                    <button id="btn-share" class="btn-header">Share</button>
+                </div>
             </div>
         </div>
 
