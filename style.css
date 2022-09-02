@@ -35,6 +35,9 @@ body {
     background-color: rgb(226, 236, 249);
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -201,4 +204,128 @@ a > p {
 .btn-header:hover {
     background-color: rgb(227, 117, 203);
     cursor: pointer;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(69,68,69,0.5);
+    width: 300px;
+    margin: 10px 0px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading-content {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.name-of-project {
+    font-weight: 500;
+}
+
+.color-line {
+    width: 15px;
+    background-color: rgb(227, 117, 203);
+}
+
+.icons-card-wrapper {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+
+#icons-card:hover {
+    color: rgb(227, 117, 203);
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 14px;
+    padding-top: 5px;
+    color: rgb(123, 123, 123);
+}
+
+.main-content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.annoucement-name {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.annoucement-text {
+    font-size: 12px;
+    color: rgb(123, 123, 123);
+    padding-top: 5px;
+}
+
+.annoucements-wrapper {
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(69,68,69,0.5);
+    width: 300px;
+    margin: 10px 0px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.annoucements-wrapper-padding {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.annoucement-line {
+    height: 1px;
+    background-color: rgb(123, 123, 123, 0.5);
+}
+
+.trending-wrapper {
+    background-color: white;
+    box-shadow: 0px 1px 2px rgba(69,68,69,0.5);
+    width: 300px;
+    margin: 10px 0px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.trending-wrapper-padding {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.trending-person {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.trending-avatar {
+    height: 40px;
+}
+
+.trending-who {
+    font-size: 13px;
+}
+
+.trending-name {
+    color: rgb(123, 123, 123);
+}
+
+.trending-avatar-wrapper {
+    width: 40px;
 }
